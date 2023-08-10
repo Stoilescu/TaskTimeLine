@@ -6,7 +6,7 @@ function DatePick() {
     console.log("Date", date);
     return (
         <>
-        {/* <h1>{date}</h1> */}
+        <h1>{date}</h1>
         <input type="date" onChange={e=>setDate(e.target.value)} />
         </>
     );
